@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <header id="top"><h1>RGB Color Picker</h1></header>
+      <div id="inputChooser">
+        <h2>
+          Choose Input type: &nbsp;&nbsp;<button id="hexChoice">
+            Hex Number
+          </button>
+          &nbsp;&nbsp;<button id="rgbChoice">Rgb Number</button>
+        </h2>
+      </div>
+      <div id="container1">
+        <h3>Enter Your Color:</h3>
+        <p id="hex-container">
+          <br />
+          Hex: <input type="text" id="bgInput" />
+        </p>
+
+        <form action="#" method="" id="rgbForm">
+          <label>Red:&nbsp;&nbsp;&nbsp;</label>
+          <input type="text" id="redInput" name="redInput" /><br />
+          <label>Green: </label>
+          <input type="text" id="greenInput" name="greenInput" /><br />
+          <label>Blue:&nbsp;&nbsp;&nbsp;</label>
+          <input type="text" id="blueInput" name="blueInput" /><br />
+          &nbsp;&nbsp;<button
+            style="font-weight:bold; font-size:1em"
+            type="submit"
+            id="rgbButton"
+          >
+            Get Color
+          </button>
+        </form>
+      </div>
+      <div id="container2">
+        <div id="circle"></div>
+        <div id="output">
+          <h3 id="rgbVal"></h3>
+          <h3 id="colorCode"></h3>
+          <h3 id="rgbBreakdown"></h3>
+        </div>
+      </div>
+    </div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="index.js"></script>
+  </body>
+</html>

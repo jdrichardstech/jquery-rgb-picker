@@ -1,0 +1,104 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-image: linear-gradient(
+      rgba(240, 240, 222, 0.5),
+      rgba(240, 240, 199, 0.5)
+    ),
+    url('color-2.jpg');
+  /* background-repeat: no-repeat; */
+
+  background-size: cover;
+}
+
+header {
+  margin: 0 auto 20px 0;
+}
+#root {
+  text-align: center;
+  margin: 30px auto;
+}
+
+#inputChooser {
+  margin: 20px 0 40px 0;
+}
+#inputChooser button {
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+input {
+  height: 50px;
+  width: 150px;
+
+  font-size: 1.7em;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-align: center;
+  margin: 0 0 30px 30px;
+}
+#bgInput {
+  width: 250px;
+}
+button {
+  width: 100px;
+  height: 60px;
+  text-align: center;
+}
+label {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+h1 {
+  font-size: 35px;
+  padding-top: 30px;
+}
+h3 {
+  font-size: 40px;
+  padding-top: 20px;
+}
+h4 {
+  font-size: 45px;
+  padding-bottom: 30px;
+}
+p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#circle {
+  width: 400px;
+  height: 400px;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+#container1 {
+  float: left;
+  margin-left: 100px;
+}
+#container2 {
+  float: right;
+  margin-right: 200px;
+}
+
+#rgbForm {
+  margin-top: 30px;
+}
+#rgbVal,
+#rgbBreakdown {
+  font-size: 1.7em;
+}
+#output {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+button {
+  width: 150px;
+  border-radius: 10%;
+}
